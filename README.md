@@ -8,11 +8,7 @@ An interactive LLM Powered Story Writer!
 
 ## Demo
 
-
-
 https://github.com/SartajBhuvaji/Story-Forge/assets/31826483/3a21b5de-994d-434f-8102-7d2b7e68063e
-
-
 
 
 ## Table of Contents
@@ -22,6 +18,7 @@ https://github.com/SartajBhuvaji/Story-Forge/assets/31826483/3a21b5de-994d-434f-
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Launching the application](#Launching-the-application)
+  - [Screenshots](#screensots)
 <!-- - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
