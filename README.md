@@ -9,7 +9,10 @@ An interactive LLM Powered Story Writer!
 ## Demo
 
 
-<!-- https://github.com/SartajBhuvaji/Sentiment-Analysis/assets/31826483/fe704efc-0942-4833-aa54-6748ed68df15 -->
+
+https://github.com/SartajBhuvaji/Story-Forge/assets/31826483/3a21b5de-994d-434f-8102-7d2b7e68063e
+
+
 
 
 ## Table of Contents
@@ -85,6 +88,14 @@ python gpt_chat.py
 ![sc_2](https://github.com/SartajBhuvaji/Sentiment-Analysis/assets/31826483/279d0a6d-0ce4-43b6-a1b3-9c139401a247)
  -->
 
+# Screensots
+- File 1
+![sc1](https://github.com/SartajBhuvaji/Story-Forge/assets/31826483/6b853ca2-174e-4955-aff9-defacbba4622)
 
+- File 2
+![sc2](https://github.com/SartajBhuvaji/Story-Forge/assets/31826483/da911208-4d1b-41dc-b993-618304dd4353)
+
+- File 3
+![sc3](https://github.com/SartajBhuvaji/Story-Forge/assets/31826483/f0b4d84d-0086-4ee2-9aba-76b81c201670)
 
 
