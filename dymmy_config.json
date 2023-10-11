@@ -1,0 +1,5 @@
+{
+    "CHAT_GPT_API_KEY": "YOUR_CHAT_GPT_API_KEY",
+    "STORY_PARTS": 5,
+    "STORY_ANS_CHOICES": 3
+}
