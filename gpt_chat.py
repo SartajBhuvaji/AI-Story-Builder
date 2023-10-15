@@ -12,6 +12,8 @@ openai.api_key = config['CHAT_GPT_API_KEY']
 story_parts = config['STORY_PARTS']
 story_ans_choices = config['STORY_ANS_CHOICES']
 model = "gpt-3.5-turbo"
+temperature = 0.7
+
 def get_genre_prompt():
     genres = ["Mystery", "Fantasy", "Science Fiction", "Romance", "Adventure"]
     return "Select a story genre: " + ', '.join(genres)
@@ -35,6 +37,7 @@ def predict(input):
     completion = openai.ChatCompletion.create(
         model=model,
         messages=message_history,
+        temperature=temperature,
     )
     
     reply_content = completion.choices[0].message.content
@@ -55,3 +58,17 @@ with gr.Blocks() as demo:
 
 # Runner
 demo.launch(share=False)
+    # Increase the creativity of the model
+    # The temperature parameter controls the randomness of the model's output. Higher values (closer to 1) make the output more random, while lower values make it more deterministic.
+    completion = openai.ChatCompletion.create(
+        model=model,
+        messages=message_history,
+        engine="davinci",
+        temperature=0.7,
+        max_tokens=150,
+        top_p=1,
+        frequency_penalty=0.5,
+        presence_penalty=0.6
+    )
+
+
